@@ -1,0 +1,78 @@
+TEST CASE: Dry Soil
+
+========== SMART GARDEN ==========
+Soil Moisture : 20.0%
+Temperature   : 25.0 C
+Humidity      : 60.0%
+Light Level   : 70.0%
+Rain Detected : NO
+
+Actuators:
+Water Pump    : ON
+Cooling Fan   : OFF
+Grow Light    : OFF
+==================================
+
+
+TEST CASE: High Temperature
+
+========== SMART GARDEN ==========
+Soil Moisture : 60.0%
+Temperature   : 38.0 C
+Humidity      : 50.0%
+Light Level   : 70.0%
+Rain Detected : NO
+
+Actuators:
+Water Pump    : OFF
+Cooling Fan   : ON
+Grow Light    : OFF
+==================================
+
+
+TEST CASE: Low Light
+
+========== SMART GARDEN ==========
+Soil Moisture : 60.0%
+Temperature   : 25.0 C
+Humidity      : 60.0%
+Light Level   : 15.0%
+Rain Detected : NO
+
+Actuators:
+Water Pump    : OFF
+Cooling Fan   : OFF
+Grow Light    : ON
+==================================
+
+
+TEST CASE: Dry Soil With Rain
+
+========== SMART GARDEN ==========
+Soil Moisture : 20.0%
+Temperature   : 25.0 C
+Humidity      : 80.0%
+Light Level   : 50.0%
+Rain Detected : YES
+
+Actuators:
+Water Pump    : OFF
+Cooling Fan   : OFF
+Grow Light    : OFF
+==================================
+
+
+TEST CASE: Multiple Conditions
+
+========== SMART GARDEN ==========
+Soil Moisture : 15.0%
+Temperature   : 40.0 C
+Humidity      : 40.0%
+Light Level   : 10.0%
+Rain Detected : NO
+
+Actuators:
+Water Pump    : ON
+Cooling Fan   : ON
+Grow Light    : ON
+==================================
